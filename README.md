@@ -11,6 +11,14 @@ Built for **VaultedMC**, but usable on any modern Minecraft server.
 
 ---
 
+<div align="center">
+  <h2>📣 Example Alert</h2>
+  
+  <img src="https://i.imgur.com/wMVScR2.png" width="600">
+</div>
+
+---
+
 ## ✨ Features
 
 - 📣 **Grouped alerts per player**  
