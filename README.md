@@ -1,9 +1,13 @@
-# DonationAlerts
+<div align="center">
+  <img src="https://i.imgur.com/5dZBolg.png" width="200">
+  
+  <h1>Donation Alerts</h1>
 
-A lightweight **Spigot/Paper plugin** for broadcasting **grouped store / donation alerts** in-game.  
+  A lightweight **Spigot/Paper plugin** for broadcasting **grouped store / donation alerts** in-game.  
 Alerts are **merged per player** over a configurable delay to prevent spam and produce clean, polished announcements.
 
 Built for **VaultedMC**, but usable on any modern Minecraft server.
+</div>
 
 ---
 
