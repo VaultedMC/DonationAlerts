@@ -1,6 +1,7 @@
 package net.vaultedmc.donationalerts.command;
 
 import lombok.RequiredArgsConstructor;
+import net.bitbylogic.utils.StringUtil;
 import net.bitbylogic.utils.message.format.Formatter;
 import net.vaultedmc.donationalerts.DonationAlerts;
 import org.bukkit.command.Command;
@@ -31,7 +32,7 @@ public class DonationAlertCommand implements CommandExecutor {
             return true;
         }
 
-        plugin.getAlertManager().addAlert(args[0], args[1]);
+        plugin.getAlertManager().addAlert(args[0], StringUtil.join(1, args, " "));
         return true;
     }
 
