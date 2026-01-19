@@ -1,0 +1,45 @@
+# Command Permission
+# The permission required to use the /donationalert command
+Command-Permission: "donationalerts.command"
+
+# The message sent if the player doesn't have permission to use the command
+No-Permission: "&cYou don't have permission to use this command!"
+
+# The message sent if the player enters invalid arguments in the command
+# Example: /donationalert test
+Usage: "&cUsage: /donationalert <player> <item name>"
+
+# The message sent when the config is reloaded
+Reloaded-Config: "&aReloaded config!"
+
+# Alert Delay
+# The amount of time (in seconds) before alerting after we received a command.
+# This can be used to merge alerts into a single alert
+Alert-Delay: 1
+
+# %item-name% - The item name
+# %amount% - The amount times they purchased the item, for example, 5x crate keys
+Item-Line: "<cr>&7%amount%x &f&n%item-name%</cr>"
+
+# Alert Commands
+# These commands will be ran when the alert message is sent
+Alert-Commands: []
+
+# Alert Sound
+# This sound will be broadcast when the alert message is sent
+Alert-Sound: "ENTITY.PLAYER.LEVELUP:1:2"
+
+# Alert Format
+# Valid Placeholders:
+# %player% - Player Name
+Alert-Format:
+  - "<cr>&8&m                    &r &f&nꜱᴛᴏʀᴇ ᴀʟᴇʀᴛ &8&m                    </cr>"
+  - ""
+  - "<cr>&f&n%player%&r &6ᴘᴜʀᴄʜᴀꜱᴇᴅ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ:</cr>"
+  - ""
+  - "%item-lines%"
+  - ""
+  - "<cr>&6&nᴛʜᴀɴᴋ ʏᴏᴜ!</cr>"
+  - ""
+  - "<cr>&7&nꜱᴛᴏʀᴇ.ᴠᴀᴜʟᴛᴇᴅ-ᴍᴄ.ɴᴇᴛ</cr>"
+  - "<cr>&8&m                                                              </cr>"

@@ -1,0 +1,9 @@
+name: DonationAlerts
+version: '1.0.0'
+main: net.vaultedmc.donationalerts.DonationAlerts
+api-version: '1.21'
+authors: [ BitByLogic ]
+commands:
+  donationalert:
+    aliases: [ "storealert" ]
+    description: Donation Alerts Command
